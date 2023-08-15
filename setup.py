@@ -2,7 +2,7 @@
 """Python Ring Door Bell setup script."""
 from setuptools import setup
 
-_VERSION = '0.7.2'
+_VERSION = '0.7.3'
 
 
 def readme():
@@ -11,15 +11,15 @@ def readme():
 
 
 setup(
-    name='ring_doorbell',
+    name='ring_doorbell_intercom',
     packages=['ring_doorbell'],
     version=_VERSION,
     description='A Python library to communicate with Ring' +
                 ' Door Bell (https://ring.com/)',
     long_description=readme(),
-    author='Marcelo Moreira de Mello',
-    author_email='tchello.mello@gmail.com',
-    url='https://github.com/tchellomello/python-ring-doorbell',
+    author='Michael Oknov',
+    author_email='michael.oknov@gmail.com',
+    url='https://github.com/michael-oknov/python-ring-doorbell',
     license='LGPLv3+',
     include_package_data=True,
     install_requires=[
